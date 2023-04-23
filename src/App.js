@@ -178,6 +178,13 @@ class App extends Component {
     });
   }
 
+  sendMessage = (message) => {
+    this.drone.publish({
+      room: "observable-room",
+      message,
+    });
+  };
+
   render() {
     return (
       <div className="App">
@@ -192,13 +199,6 @@ class App extends Component {
       </div>
     );
   }
-
-  sendMessage = (message) => {
-    this.drone.publish({
-      room: "observable-room",
-      message,
-    });
-  };
 }
 
 export default App;
