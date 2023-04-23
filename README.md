@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can test this Application [here](https://chat-app-react-chi.vercel.app/).
+
 ## Available Scripts
 
 In the project directory, you can run:
